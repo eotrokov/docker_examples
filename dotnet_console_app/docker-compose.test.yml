@@ -1,0 +1,7 @@
+version: '2.1'
+
+services:
+  test:
+    container_name: test_test
+    env_file:
+      - TEST.env
